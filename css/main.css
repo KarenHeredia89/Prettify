@@ -1,0 +1,81 @@
+body {
+	font-family: Oswald;
+}
+.nav-header {
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+
+}
+nav a {
+	text-decoration: none;
+	color: black;
+}
+nav a:hover {
+	color: purple;
+}
+.imagen {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 350px;
+}
+.cont img {
+	margin: 10px 15px;
+	padding: 40px;
+	margin-left: 400px;
+}
+.cont h1, h3 {
+	color: white;
+	text-align: center;
+}
+.fondo_uno {
+	background-image: url(../images/tile1.png);
+}
+.about {
+	padding: 20px 0px;
+	text-align: center;
+	color: black;
+}
+.about img {
+	margin: 20px 0px;
+	border: 2px solid #eee;
+}
+.about p {
+	margin: 20px 0px;
+	text-align: left;
+}
+.titulo h3 {
+	font-size: 30px;
+	color: purple;
+	padding-top: 20px;
+}
+.my h3, h2 {
+	padding-top: 20px;
+	color: purple;
+	text-align: center;
+}
+.cat {
+	margin-left: 180px;
+	padding: 50px 0px;
+}
+.cat img {
+	margin: 0px 10px;
+	width: 15%;
+	border-radius: 50%;
+	border: 5px solid purple;
+}
+footer {
+	background-image: url(../images/tile2.png); 
+}
+footer .contact {
+	margin-left: 330px;
+	padding: 20px 0px;
+}
+.contact img {
+	height: 90px;
+	padding: 0px 5px;
+}
